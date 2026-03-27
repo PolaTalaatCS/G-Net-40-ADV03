@@ -1,4 +1,6 @@
-﻿namespace G_Net_40_ADV03
+﻿using System.Linq.Expressions;
+
+namespace G_Net_40_ADV03
 {
     internal class Program
     {
@@ -38,20 +40,42 @@
             //}
             #endregion
             #region Excersice 2
-           // SortedList<int, string> scores = new()
-           // { [500] = "Ahmed", [200] = "Sara", [800] = "Ali", [350] = "Mona" };
-           // foreach (var entry in scores)
-           // {
-           //     Console.WriteLine($"{entry.Value} : {entry.Key}");
-           // }
-           // Console.WriteLine($"first index  = {scores.Keys[0]}");
-           // Console.WriteLine($"first value  = {scores.Values[0]}");
-           //bool check = scores.ContainsKey( 500 );
-           // scores.Remove(200);
-           // foreach (var entry in scores)
-           // {
-           //     Console.WriteLine($"{entry.Value} : {entry.Key}");
-           // }
+            // SortedList<int, string> scores = new()
+            // { [500] = "Ahmed", [200] = "Sara", [800] = "Ali", [350] = "Mona" };
+            // foreach (var entry in scores)
+            // {
+            //     Console.WriteLine($"{entry.Value} : {entry.Key}");
+            // }
+            // Console.WriteLine($"first index  = {scores.Keys[0]}");
+            // Console.WriteLine($"first value  = {scores.Values[0]}");
+            //bool check = scores.ContainsKey( 500 );
+            // scores.Remove(200);
+            // foreach (var entry in scores)
+            // {
+            //     Console.WriteLine($"{entry.Value} : {entry.Key}");
+            // }
+            #endregion
+            #region Excersice 3
+            //Dictionary<string, string> phonenumbers = new()
+            //{ ["pola"] = "01293843483", ["sara"] = "011193736332", ["mohmed"] = "012838922732", ["bishoy"] = "01223913837" };
+            //phonenumbers["omar"] = "010999318888";
+            //if (!phonenumbers.ContainsKey("omar"))
+            //{
+            //    phonenumbers.Add("omar", "010931135588");
+            //}
+            //phonenumbers.TryAdd("omar", "010931135588");
+            //if (phonenumbers.TryGetValue("Omar", out string phone))
+            //{
+            //    Console.WriteLine(phone);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("contact not found");
+            //}
+            //string phoneNumber = phonenumbers.GetValueOrDefault("Omar", "Not Found");
+            //Console.WriteLine(phoneNumber);
+            //Console.WriteLine(string.Join(", ", phonenumbers.Values));
+
             #endregion
         }
     }
