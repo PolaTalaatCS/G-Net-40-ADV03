@@ -78,29 +78,52 @@ namespace G_Net_40_ADV03
 
             #endregion
             #region Exercise 4
-    //        HashSet<string> email = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
-    //        {"ahmed@test.com", "AHMED@test.com", "sara@test.com", "Sara@Test.Com" };
-    //        foreach (var item in email)
-    //        {
-    //            Console.WriteLine(item);
-    //        }
-    //        HashSet<int> A = new() { 1, 2, 3, 4, 5 };
-    //        HashSet<int> B = new() { 4, 5, 6, 7, 8 };
-          
-    //        A.UnionWith(B);
-    //        Console.WriteLine("Union: " + string.Join(", ", A));
+            //        HashSet<string> email = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+            //        {"ahmed@test.com", "AHMED@test.com", "sara@test.com", "Sara@Test.Com" };
+            //        foreach (var item in email)
+            //        {
+            //            Console.WriteLine(item);
+            //        }
+            //        HashSet<int> A = new() { 1, 2, 3, 4, 5 };
+            //        HashSet<int> B = new() { 4, 5, 6, 7, 8 };
 
-    //        A = new HashSet<int> { 1, 2, 3 , 4, 5 };
+            //        A.UnionWith(B);
+            //        Console.WriteLine("Union: " + string.Join(", ", A));
 
-    //        A.IntersectWith(B);
-    //        Console.WriteLine("Intersect: " + string.Join(", ", A));
-    //A = new HashSet<int> { 1, 2, 3 , 4 , 5 };
-    //        A.ExceptWith(B);
-    //        Console.WriteLine("Except: " + string.Join(", ", A));
-    //        A= new HashSet<int> { 1,2, 3 , 4 ,5 };
-    //    HashSet<int> C=new HashSet<int> { 1, 2 };
-    //        bool issubset = A.IsSubsetOf(C);
+            //        A = new HashSet<int> { 1, 2, 3 , 4, 5 };
+
+            //        A.IntersectWith(B);
+            //        Console.WriteLine("Intersect: " + string.Join(", ", A));
+            //A = new HashSet<int> { 1, 2, 3 , 4 , 5 };
+            //        A.ExceptWith(B);
+            //        Console.WriteLine("Except: " + string.Join(", ", A));
+            //        A= new HashSet<int> { 1,2, 3 , 4 ,5 };
+            //    HashSet<int> C=new HashSet<int> { 1, 2 };
+            //        bool issubset = A.IsSubsetOf(C);
             #endregion
+            #region Exercise 5
+            //Queue<string> queue = new Queue<string>();
+            //queue.Enqueue("Report.pdf");
+            //queue.Enqueue("Invoice.pdf");
+            //queue.Enqueue("Letter.docx");
+            //queue.Enqueue("Resume.pdf");
+            //queue.Enqueue("Photo.jpg");
+            //foreach (var item in queue)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //Console.WriteLine(queue.Count);
+            //queue.Peek();
+            //while (queue.Count > 0)
+            //{
+
+            //    string doc = queue.Dequeue();
+            //    Console.WriteLine($"Printing: {doc}");
+
+            //}
+
+            #endregion
+
         }
     }
 }
